@@ -10,4 +10,4 @@ packages:
 
 aur-packages:
   - 'paru'
-  #- 'visual-studio-code-bin'
+  #- 'visual-studio-code-bin' # Doesn't work
