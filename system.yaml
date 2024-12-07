@@ -6,8 +6,14 @@ packages:
   - 'vim'
   - 'gparted'
   - 'github-cli'
+  - 'bat'
   - 'torbrowser-launcher'
 
 aur-packages:
   - 'paru'
+  - 'onedriver'
   #- 'visual-studio-code-bin' # Doesn't work
+
+package-repos:
+  - name: 'chaotic-aur'
+    repo-url: 'https://cdn-mirror.chaotic.cx/$repo/$arch'
