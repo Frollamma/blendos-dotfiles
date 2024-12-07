@@ -1,0 +1,13 @@
+impl: http://github.com/blend-os/tracks/raw/main
+repo: https://pkg-repo.blendos.co
+track: default-gnome
+
+packages:
+  - 'vim'
+  - 'gparted'
+  - 'github-cli'
+  - 'torbrowser-launcher'
+
+aur-packages:
+  - 'paru'
+  #- 'visual-studio-code-bin'

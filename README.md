@@ -1,0 +1,1 @@
+Here I write my blendOS config files/scripts and my eperience.
