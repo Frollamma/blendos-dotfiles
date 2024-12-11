@@ -9,6 +9,9 @@ packages:
   - 'bat'
   - 'okular'
   - 'torbrowser-launcher'
+  - 'mokutil'
+  # Development packages (I don't think they should be in the system configuration. I miss NixOS on this)
+  - 'openmpi'
 
 aur-packages:
   - 'paru'
