@@ -12,6 +12,8 @@ packages:
   - 'mokutil'
   # Development packages (I don't think they should be in the system configuration. I miss NixOS on this)
   - 'openmpi'
+  - 'xournalpp'
+  - 'perl-image-exiftool'
 
 aur-packages:
   - 'paru'
