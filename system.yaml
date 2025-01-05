@@ -3,17 +3,19 @@ repo: https://pkg-repo.blendos.co
 track: default-gnome
 
 packages:
+  - 'fish'
   - 'vim'
   - 'gparted'
   - 'github-cli'
   - 'bat'
   - 'okular'
+  - 'libreoffice-fresh'
   - 'torbrowser-launcher'
+  - 'xournalpp'
+  - 'perl-image-exiftool'
   - 'mokutil'
   # Development packages (I don't think they should be in the system configuration. I miss NixOS on this)
   - 'openmpi'
-  - 'xournalpp'
-  - 'perl-image-exiftool'
 
 aur-packages:
   - 'paru'
