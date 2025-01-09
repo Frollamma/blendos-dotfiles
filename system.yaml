@@ -10,6 +10,7 @@ packages:
   - 'bat'
   - 'okular'
   - 'libreoffice-fresh'
+  - 'libreoffice-extension-texmaths'
   - 'torbrowser-launcher'
   - 'xournalpp'
   - 'perl-image-exiftool'
