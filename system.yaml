@@ -6,6 +6,7 @@ packages:
   - 'fish'
   - 'vim'
   - 'gparted'
+  - 'docker'
   - 'github-cli'
   - 'bat'
   - 'okular'
@@ -17,6 +18,12 @@ packages:
   - 'mokutil'
   # Development packages (I don't think they should be in the system configuration. I miss NixOS on this)
   - 'openmpi'
+  - 'nix'
+  - 'python'
+  - 'python-uv'
+  - 'python-poetry'
+  - 'cmake'
+  - 'git-lfs'
 
 aur-packages:
   - 'paru'
@@ -24,6 +31,9 @@ aur-packages:
   - 'onedriver'
   #- 'teams-for-linux-bin'  # Doesn't work due to /opt
   #- 'teams-for-linux-wayland-hook' # Doesn't work due to /opt
+  #- 'wolframengine' # Doesn't work due to opt
+  - 'rebos-git'
+  - 'python312'
 
 package-repos:
   - name: 'chaotic-aur'
