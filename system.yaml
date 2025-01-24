@@ -23,8 +23,9 @@ packages:
   - 'python-uv'
   - 'python-poetry'
   - 'cmake'
+  - 'radicle-cli-bin'
   - 'git-lfs'
-
+  - 'gnu-netcat'
 aur-packages:
   - 'paru'
   #- 'visual-studio-code-bin' # Doesn't work because blendOS empties /opt, they're working on a fix
