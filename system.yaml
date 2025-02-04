@@ -23,9 +23,10 @@ packages:
   - 'python-uv'
   - 'python-poetry'
   - 'cmake'
-  - 'radicle-cli-bin'
   - 'git-lfs'
   - 'gnu-netcat'
+  - 'nethogs'
+  - 'wireguard-tools'
 aur-packages:
   - 'paru'
   #- 'visual-studio-code-bin' # Doesn't work because blendOS empties /opt, they're working on a fix
@@ -35,6 +36,7 @@ aur-packages:
   #- 'wolframengine' # Doesn't work due to opt
   - 'rebos-git'
   - 'python312'
+  - 'radicle-cli-bin'
 
 package-repos:
   - name: 'chaotic-aur'
