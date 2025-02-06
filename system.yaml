@@ -3,7 +3,7 @@ repo: https://pkg-repo.blendos.co
 track: default-gnome
 
 packages:
-  - 'fish'
+  #- 'fish'
   - 'vim'
   - 'gparted'
   - 'docker'
@@ -13,30 +13,41 @@ packages:
   - 'libreoffice-fresh'
   - 'libreoffice-extension-texmaths'
   - 'torbrowser-launcher'
-  - 'xournalpp'
   - 'perl-image-exiftool'
-  - 'mokutil'
+  - 'nethogs'
+  #- 'mokutil'  # Did I ever use it?
   # Development packages (I don't think they should be in the system configuration. I miss NixOS on this)
-  - 'openmpi'
+  #- 'openmpi'
   - 'nix'
   - 'python'
   - 'python-uv'
   - 'python-poetry'
   - 'cmake'
   - 'git-lfs'
-  - 'gnu-netcat'
-  - 'nethogs'
   - 'wireguard-tools'
+  # QEMU
+  - 'qemu-full'
+  - 'libvirt'
+  - 'dnsmasq'
+  - 'openbsd-netcat'
+  - 'virt-manager'
+  - 'virt-viewer'
+  - 'vde2'
+  - 'bridge-utils'
+  - 'libguestfs'
+  - 'iftop'
 aur-packages:
   - 'paru'
   #- 'visual-studio-code-bin' # Doesn't work because blendOS empties /opt, they're working on a fix
+  - 'tcptrack'
   - 'onedriver'
   #- 'teams-for-linux-bin'  # Doesn't work due to /opt
   #- 'teams-for-linux-wayland-hook' # Doesn't work due to /opt
   #- 'wolframengine' # Doesn't work due to opt
-  - 'rebos-git'
+  #- 'rebos-git'
   - 'python312'
   - 'radicle-cli-bin'
+  #- 'invidious-git'
 
 package-repos:
   - name: 'chaotic-aur'
