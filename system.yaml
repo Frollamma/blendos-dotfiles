@@ -48,6 +48,8 @@ aur-packages:
   - 'python312'
   - 'radicle-cli-bin'
   #- 'invidious-git'
+  #- 'bisq'         # opt problem
+  #- 'bisq2'        # opt problem
 
 package-repos:
   - name: 'chaotic-aur'
